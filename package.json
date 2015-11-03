@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/Luchanso/botanio-node/issues"
   },
-  "homepage": "https://github.com/Luchanso/botanio-node#readme"
+  "homepage": "https://github.com/Luchanso/botanio-node#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  }
 }
