@@ -1,0 +1,25 @@
+{
+  "name": "botanio-node",
+  "version": "1.0.0",
+  "description": "Yandex.Metrica for telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luchanso/botanio-node.git"
+  },
+  "keywords": [
+    "botanio",
+    "yandex",
+    "bot",
+    "telgram"
+  ],
+  "author": "oleg@loutchansky, botan.io <info@botan.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luchanso/botanio-node/issues"
+  },
+  "homepage": "https://github.com/Luchanso/botanio-node#readme"
+}
