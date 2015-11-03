@@ -3,13 +3,21 @@ Botanio for node https://github.com/botanio/sdk/
 
 Example use:
 ```js
+var token = '1cbfbebc-79e9-48f4-89fc-5addab664745' // You can take it here: https://appmetrica.yandex.com/application
 var botan = require('botanio')(token);
 
+/**
+ * Track your message
+ * @param {Object} error 
+ * @param {Object} response
+ * @param {Object} body       {status: 'accepted'} or {status: 'bad request', info: '...'}
+ * @param {Function} callback
+ * @return {[type]}          [description]
+ */
 botan.track(message, 'Name', function(error, response, body) {
   if (error) {
     throw error;
   } else {
-    console.log(response);
     console.log(body);
   }
 });
@@ -32,4 +40,3 @@ botan.track(message, 'Name', function(error, response, body) {
   text: 'Hello world!' }
  */
 ```
-
