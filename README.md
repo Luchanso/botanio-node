@@ -4,7 +4,7 @@ Botanio for node https://github.com/botanio/sdk/
 Example use:
 ```js
 var token = '1cbfbebc-79e9-48f4-89fc-5addab664745' // You can take it here: https://appmetrica.yandex.com/application
-var botan = require('botanio')(token);
+var botan = require('botanio-node')(token);
 
 /**
  * Track your message
